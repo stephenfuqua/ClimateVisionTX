@@ -1,2 +1,2 @@
-﻿app.controller('learningController', function ($scope) {
-});
+﻿app.controller('learningController', ['$scope', function ($scope) {
+}]);

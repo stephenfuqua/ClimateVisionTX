@@ -1,2 +1,2 @@
-﻿app.controller('whyController', function ($scope) {
-});
+﻿app.controller('whyController', ['$scope', function ($scope) {
+}]);

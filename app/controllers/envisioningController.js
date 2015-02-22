@@ -1,2 +1,2 @@
-﻿app.controller('envisioningController', function ($scope) {
-});
+﻿app.controller('envisioningController', ['$scope',function ($scope) {
+}]);

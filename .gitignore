@@ -1,3 +1,9 @@
 *.suo
 images/ClimateVisionTX.pdn
 images/climateVisionTX_State.pdn
+*.ini
+googlea28cfa6233c4e08c.html
+node_modules/*
+site.min.css
+ClimateVisionTX.app*
+web.config

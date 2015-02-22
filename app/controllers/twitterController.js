@@ -1,2 +1,2 @@
-﻿app.controller('twitterController', function ($scope) {
-});
+﻿app.controller('twitterController', ['$scope', function ($scope) {
+}]);

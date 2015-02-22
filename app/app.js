@@ -1,6 +1,6 @@
 ﻿var app = angular.module('ClimateVisionTx', ['ngRoute', 'ngResource']);
 
-app.config(function ($routeProvider, $locationProvider) {
+app.config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/Home', {
         controller: 'homeController',
         templateUrl: '/app/views/home.html'
@@ -26,5 +26,4 @@ app.config(function ($routeProvider, $locationProvider) {
         templateUrl: '/app/views/contact.html'
     })
     .otherwise({ redirectTo: '/Home' });
-});
-
+}]);
